@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/logo/logo-dark-transparent.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+      $("#footer-placeholder").load("footer.html");
+    });
+
+    setTimeout(function () {
+      $(".pocetna-nav-link").addClass("active-nav");
+    }, 500);
+  </script>
+
+  <title>Extra Gym | Pocetna</title>
+</head>
+
+<body>
+  <section class="navigacija" id="nav-placeholder"></section>
+
+  <section class="pocetna-hero sektor" id="sektor1" style="position: relative;">
+    <div class="container">
+      <img class="pocetna-hero-image" src="assets/images/pocetna/hero-hero-cutted.png" alt="pocetna-hero-img">
+      <div class="circle"></div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-6 d-flex flex-column justify-content-center">
+          <div class="podnaslov">treniraj s nama</div>
+          <h1 class="naslov" id="naslovHero">Extra Gym</h1>
+          <p class="paragraf"><span>Ukoliko želite da vodite zdrav život a kao posledicu toga želite i gubitak kilaže
+              ili dobijanje kilaže, na pravom ste mestu. Profesionalno i srdačno osoblje teretane će Vam pomoći da
+              dođete do željenih rezultata u najkraćem mogućem roku i na najbolji način.</span></p>
+          <button class="dugmeWrapper"><a class="dugme dugme-hero" href="index.html#sektor6">Naši programi</a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="dot-container">
+      <button id="dot-dugme1" class="dot-dugme active-text"><b><a href="#sektor1">01</a></b></button>
+      <button id="dot-dugme2" class="dot-dugme"><b><a href="#sektor2">02</a></b></button>
+      <button id="dot-dugme3" class="dot-dugme"><b><a href="#sektor3">03</a></b></button>
+      <button id="dot-dugme4" class="dot-dugme"><b><a href="#sektor4">04</a></b></button>
+      <button id="dot-dugme5" class="dot-dugme"><b><a href="#sektor5">05</a></b></button>
+      <button id="dot-dugme6" class="dot-dugme"><b><a href="#sektor6">06</a></b></button>
+      <button id="dot-dugme7" class="dot-dugme"><b><a href="#sektor7">07</a></b></button>
+    </div>
+
+    <a href="#sektor2" class="scroll-down" address="true"></a>
+
+    <div class="pocetna-prelaz-s1-s2"></div>
+  </section>
+
+  <section class="pocetna-o-nama sektor" id="sektor2">
+    <div class="container">
+      <p class=" oznaka-sektora" id="sektor02">02</p>
+      <div class="row">
+        <div class="col-xxl-6 col-lg-6 col-sm-12" style="position: relative;">
+          <div id="pocetna-s2-okvir"></div>
+          <img id="pocetna-s2-slika" src="assets/images/pocetna/pocetna-s2-onama-obrisano.png"
+            alt="pocetna-o-nama-pozadina">
+        </div>
+        <div class="col-xxl-5 col-lg-6 col-sm-12" id="pocetna-s2-tekst">
+          <p class="podnaslov">O nama</p>
+          <p class="naslov" id="naslovONama">Ko smo mi</p>
+          <p class="paragraf"><span class="paragraf-start">Vodeći</span> međunarodni fitnes centar sa sedištem u
+            Beogradu, Srbija. Mi smo tim vrhunskih
+            trenera sa više od decenije iskustva.<br><br>Zapošljavamo lične trenere, grupu fitnes instruktora i
+            profesionalne nutricioniste da šire znanje i fitnes trendove.<br><br>Nasim članovima teretane nudimo
+            potpuno
+            zdravlje, a ne samo gubitak težine ili povećanje mišića.
+          </p>
+          <button class="dugmeWrapper"><a class="dugme" href="o-nama.html">O nama</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pocetna-cenovnik sektor" id="sektor3">
+    <div class="container">
+      <p class="oznaka-sektora" id="sektor03">03</p>
+      <div id="pocetna-s3-tekst" class="row col-12">
+        <p class="podnaslov">Cene i ponude</p>
+        <p class="naslov dark">Planovi i cene članstva</p>
+        <p class="paragraf dark">Za svaku kategoriju korisnika imamo posebnu ponudu. Ukoliko niste sigurni koji paket da
+          izaberete, pozovite nas i u konsultaciji sa trenerom ili nutricionistom ćemo Vam preporučiti paket koji
+          najviše odgovara vašim potrebama</p>
+      </div>
+
+      <div class="row g-3" id="pocetna-s3-kartice">
+        <div class="col-lg-6 col-xl-3" id="pocetna-s3-kartica1">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena1">Standard paket</h2>
+            <div class="cena">2800 rsd</div>
+            <div class="mesecno">mesečno</div>
+            <ul>
+              <li><b>20</b> - broj treninga mesečno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>00h-24h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+              <li><b>50% popusta</b> sportska masaža</li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="termini.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3" id="pocetna-s3-kartica2">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena2">Full paket</h2>
+            <div class="cena">3500 rsd</div>
+            <div class="mesecno">mesečno</div>
+            <ul>
+              <li><b>Neogranicen</b> broj treninga</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>Grupni programi</b> - neograničeno</li>
+              <li><b>00h-24h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+              <li><b>50% popusta</b> sportska masaža</li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="termini.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3" id="pocetna-s3-kartica3">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena3">Studentski paket</h2>
+            <div class="cena">2000 rsd</div>
+            <div class="mesecno">mesečno</div>
+            <ul>
+              <li><b>16</b> - broj treninga mesečno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>07h-22h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+            </ul><button class="dugmeWrapper"><a class="dugme" href="termini.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3" id="pocetna-s3-kartica4">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena4">Dnevni paket</h2>
+            <div class="cena">400 rsd</div>
+            <div class="mesecno">dnevno</div>
+            <ul>
+              <li><b>1</b> trening dnevno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>07h-16h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+            </ul><button class="dugmeWrapper"><a class="dugme" href="termini.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section class="pocetna-blog sektor" id="sektor4">
+    <div class="container">
+      <p class="oznaka-sektora" id="sektor04">04</p>
+      <p class="podnaslov">Naš fitnes blog i članci</p>
+      <p class="naslov dark">Pogledajte najnovije vesti</p>
+      <div id="pocetna-blogovi-placeholder"></div>
+      <button class="dugmeWrapper"><a class="dugme" href="blog.html">Pročitaj još</a></button>
+    </div>
+  </section>
+
+  <section class="pocetna-treneri sektor" id="sektor5">
+    <div class="container">
+      <p class="oznaka-sektora" id="sektor05">05</p>
+      <div class="row">
+        <div class="col-12">
+          <p class="podnaslov">Sertifikovani profesionalci na usluzi</p>
+          <p class="naslov dark">Vežbanje sa kvalifikovanim trenerima</p>
+        </div>
+      </div>
+      <div id="treneri-json"></div>
+
+      <div class="row">
+        <div class="col-12">
+          <button class="dugmeWrapper"><a class="dugme" href="o-nama.html#treneri">Naš tim</a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pocetna-termini sektor" id="sektor6">
+    <div class="container">
+      <p class="oznaka-sektora" id="sektor06">06</p>
+      <div class="row">
+        <div class="col-12">
+          <p class="podnaslov">Odaberi trening koji ti najviše odgovara</p>
+          <p class="naslov">Termini grupnih treninga</p>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="timeline">
+          <div class="space"></div>
+          <div class="time-marker">09:00</div>
+          <div class="time-marker">10:00</div>
+          <div class="time-marker">11:00</div>
+          <div class="time-marker">12:00</div>
+          <div class="time-marker">13:00</div>
+          <div class="time-marker">14:00</div>
+          <div class="time-marker">15:00</div>
+          <div class="time-marker">16:00</div>
+          <div class="time-marker">17:00</div>
+          <div class="time-marker">18:00</div>
+          <div class="time-marker">19:00</div>
+          <div class="time-marker">20:00</div>
+          <div class="time-marker">21:00</div>
+        </div>
+        <div class="days">
+          <div class="day mon">
+            <div class="date">
+              <p class="date-num">20</p>
+              <p class="date-day">Pon</p>
+            </div>
+            <div class="events">
+              <div class="event start-9 end-10 yoga">
+                <p class="title">Yoga</p>
+                <p class="time">09:00 - 10:00</p>
+              </div>
+              <div class="event start-10 end-11 body-pump">
+                <p class="title">Body Pump</p>
+                <p class="time">10:00 - 11:00</p>
+              </div>
+              <div class="event start-11 end-12 cardio-boxing">
+                <p class="title">Cardio Boxing</p>
+                <p class="time">11:00 - 12:00</p>
+              </div>
+              <div class="event start-17 end-18 step-aerobic">
+                <p class="title">Step Aerobic</p>
+                <p class="time">17:00 - 18:00</p>
+              </div>
+              <div class="event start-18 end-19 gluteus-core">
+                <p class="title">Gluteus & Core</p>
+                <p class="time">18:00 - 19:00</p>
+              </div>
+              <div class="event start-19 end-20 zumba">
+                <p class="title">Zumba Boxing</p>
+                <p class="time">19:00 - 20:00</p>
+              </div>
+              <div class="event start-20 end-21 pilates">
+                <p class="title">Pilates</p>
+                <p class="time">20:00 - 21:00</p>
+              </div>
+              <div class="event start-21 end-22 full-body-workout">
+                <p class="title">Full Body Workout</p>
+                <p class="time">21:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="day tues">
+            <div class="date">
+              <p class="date-num">21</p>
+              <p class="date-day">Uto</p>
+            </div>
+            <div class="events">
+              <div class="event start-9 end-10 pilates">
+                <p class="title">Pilates</p>
+                <p class="time">09:00 - 10:00</p>
+              </div>
+              <div class="event start-10 end-11 gluteus-core">
+                <p class="title">Gluteus & Core</p>
+                <p class="time">10:00 - 11:00</p>
+              </div>
+              <div class="event start-11 end-12 step-aerobic">
+                <p class="title">Step Aerobic</p>
+                <p class="time">11:00 - 12:00</p>
+              </div>
+              <div class="event start-17 end-18 cardio-boxing">
+                <p class="title">Cardio Boxing</p>
+                <p class="time">17:00 - 18:00</p>
+              </div>
+              <div class="event start-18 end-19 zumba">
+                <p class="title">Zumba Boxing</p>
+                <p class="time">18:00 - 19:00</p>
+              </div>
+              <div class="event start-19 end-20 hiit">
+                <p class="title">HIIT</p>
+                <p class="time">19:00 - 20:00</p>
+              </div>
+              <div class="event start-20 end-21 full-body-workout">
+                <p class="title">Full Body Workout</p>
+                <p class="time">20:00 - 21:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="day wed">
+            <div class="date">
+              <p class="date-num">22</p>
+              <p class="date-day">Sre</p>
+            </div>
+            <div class="events">
+              <div class="event start-9 end-10 yoga">
+                <p class="title">Yoga</p>
+                <p class="time">09:00 - 10:00</p>
+              </div>
+              <div class="event start-10 end-11 body-pump">
+                <p class="title">Body Pump</p>
+                <p class="time">10:00 - 11:00</p>
+              </div>
+              <div class="event start-11 end-12 cardio-boxing">
+                <p class="title">Cardio Boxing</p>
+                <p class="time">11:00 - 12:00</p>
+              </div>
+
+              <div class="event start-17 end-18 step-aerobic">
+                <p class="title">Step Aerobic</p>
+                <p class="time">17:00 - 18:00</p>
+              </div>
+              <div class="event start-18 end-19 gluteus-core">
+                <p class="title">Gluteus & Core</p>
+                <p class="time">18:00 - 19:00</p>
+              </div>
+              <div class="event start-19 end-20 zumba">
+                <p class="title">Zumba Boxing</p>
+                <p class="time">19:00 - 20:00</p>
+              </div>
+              <div class="event start-20 end-21 pilates">
+                <p class="title">Pilates</p>
+                <p class="time">20:00 - 21:00</p>
+              </div>
+              <div class="event start-21 end-22 full-body-workout">
+                <p class="title">Full Body Workout</p>
+                <p class="time">21:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="day thurs">
+            <div class="date">
+              <p class="date-num">23</p>
+              <p class="date-day">Četv</p>
+            </div>
+            <div class="events">
+              <div class="event start-9 end-10 pilates">
+                <p class="title">Pilates</p>
+                <p class="time">09:00 - 10:00</p>
+              </div>
+              <div class="event start-10 end-11 gluteus-core">
+                <p class="title">Gluteus & Core</p>
+                <p class="time">10:00 - 11:00</p>
+              </div>
+              <div class="event start-11 end-12 step-aerobic">
+                <p class="title">Step Aerobic</p>
+                <p class="time">11:00 - 12:00</p>
+              </div>
+              <div class="event start-17 end-18 cardio-boxing">
+                <p class="title">Cardio Boxing</p>
+                <p class="time">17:00 - 18:00</p>
+              </div>
+              <div class="event start-18 end-19 zumba">
+                <p class="title">Zumba Boxing</p>
+                <p class="time">18:00 - 19:00</p>
+              </div>
+              <div class="event start-19 end-20 hiit">
+                <p class="title">HIIT</p>
+                <p class="time">19:00 - 20:00</p>
+              </div>
+              <div class="event start-20 end-21 full-body-workout">
+                <p class="title">Full Body Workout</p>
+                <p class="time">20:00 - 21:00</p>
+              </div>
+            </div>
+          </div>
+          <div class="day fri">
+            <div class="date">
+              <p class="date-num">24</p>
+              <p class="date-day">Pet</p>
+            </div>
+            <div class="events">
+              <div class="event start-10 end-11 body-pump">
+                <p class="title">Body Pump</p>
+                <p class="time">10:00 - 11:00</p>
+              </div>
+              <div class="event start-11 end-12 cardio-boxing">
+                <p class="title">Cardio Boxing</p>
+                <p class="time">11:00 - 12:00</p>
+              </div>
+              <div class="event start-17 end-18 step-aerobic">
+                <p class="title">Step Aerobic</p>
+                <p class="time">17:00 - 18:00</p>
+              </div>
+              <div class="event start-18 end-19 gluteus-core">
+                <p class="title">Gluteus & Core</p>
+                <p class="time">18:00 - 19:00</p>
+              </div>
+              <div class="event start-19 end-20 zumba">
+                <p class="title">Zumba Boxing</p>
+                <p class="time">19:00 - 20:00</p>
+              </div>
+              <div class="event start-20 end-21 pilates">
+                <p class="title">Pilates</p>
+                <p class="time">20:00 - 21:00</p>
+              </div>
+              <div class="event start-21 end-22 full-body-workout">
+                <p class="title">Full Body Workout</p>
+                <p class="time">21:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pocetna-probni-trening sektor" id="sektor7">
+    <div class="container">
+      <p class="oznaka-sektora" id="sektor07">07</p>
+      <div class="row">
+        <div class="col">
+          <p class="podnaslov">Zakaži besplatan grupni probni trening</p>
+          <p class="naslov dark">Besplatan probni trening</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="pocetna-probni-slika">
+            <img src="assets/images/pocetna/heavy-lifting-man.png" alt="pocetna-kontakt-slika">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h4 class="kontakt-s4-heading mb-4">Zakaži trening</h4>
+          <form>
+            <div class="mb-3">
+              <label for="inputImePrezime" class="form-label">Ime i prezime:</label>
+              <input type="text" class="form-control" id="inputImePrezime">
+            </div>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">E-mail adresa:</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="mb-3">
+              <label for="inputEmail" class="form-label">Vrsta treninga:</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Izaberite...</option>
+                <option value="1">Pilates</option>
+                <option value="2">Yoga</option>
+                <option value="3">Gluteus & Core</option>
+                <option value="3">Body Pump</option>
+                <option value="3">Step Aerobic</option>
+                <option value="3">Zumba</option>
+                <option value="3">HIIT</option>
+                <option value="3">Cardio Boxing</option>
+                <option value="3">Full Body Workout</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="datum">Datum:</label>
+              <input id="datum" class="form-control" type="date" />
+            </div>
+
+
+            <div class="mb-3">
+              <label for="comment">Napomena:</label>
+              <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+            </div>
+            <button type="submit" class="dugme">Zakaži trening</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="footer-placeholder"></section>
+
+  <!-- Custom JS -->
+  <script src="assets/js/script.js"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

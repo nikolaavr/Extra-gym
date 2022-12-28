@@ -1,0 +1,11 @@
+Za pokretanje projekta u Pretrazivacu potrebno je upaliti server. Testirano na:
+
+1. "XAMPP" Apache server-u
+	- Kopirati folder "Extra-gym" unutar C:/xampp/htdocs folder
+	- Startovati Xampp apache server
+	- Uneti link u pretrazivacu: localhost/Extra-gym
+
+2."Live server" ekstenzija unutar Visual Studio Code okruzenja
+	- Instalirati ekstenziju
+	- Desni klik > Open with Live server
+	- Automatski ce se startovati server i otvoriti nesto slicno ovome u Pretrazivacu: "http://127.0.0.1:5500/index.html"

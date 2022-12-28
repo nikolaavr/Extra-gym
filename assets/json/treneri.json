@@ -1,0 +1,100 @@
+{
+  "treneri": [
+    {
+      "id": "trener1",
+      "ime": "Sofija",
+      "prezime": "Jovanovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava1.jpg",
+      "godinaRodjenja": 1997,
+      "struka": "Instruktorka pilatesa"
+    },
+    {
+      "id": "trener2",
+      "ime": "Sara",
+      "prezime": "Petrovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava2.jpg",
+      "godinaRodjenja": 1990,
+      "struka": "Instruktorka zumbe"
+    },
+    {
+      "id": "trener3",
+      "ime": "Luka",
+      "prezime": "Nikolic",
+      "profilnaSlika": "assets/images/treneri/trener-glava3.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Personalni trener"
+    },
+    {
+      "id": "trener4",
+      "ime": "Stefan",
+      "prezime": "Ilic",
+      "profilnaSlika": "assets/images/treneri/trener-glava4.jpg",
+      "godinaRodjenja": 1990,
+      "struka": "Personalni trener"
+    },
+    {
+      "id": "trener5",
+      "ime": "Lazar",
+      "prezime": "Djordjevic",
+      "profilnaSlika": "assets/images/treneri/trener-glava5.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Instruktor zumbe"
+    },
+    {
+      "id": "trener6",
+      "ime": "Teodora",
+      "prezime": "Pavlovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava6.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Body Pump i HIIT"
+    },
+    {
+      "id": "trener7",
+      "ime": "Dunja",
+      "prezime": "Markovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava7.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Instruktorka joge"
+    },
+    {
+      "id": "trener8",
+      "ime": "Ana",
+      "prezime": "Popovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava8.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Instruktorka pilatesa"
+    },
+    {
+      "id": "trener9",
+      "ime": "Vuk",
+      "prezime": "Stojanovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava9.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Personalni trener"
+    },
+    {
+      "id": "trener10",
+      "ime": "Mila",
+      "prezime": "Zivkovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava10.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Cardio-Boxing instruktorka"
+    },
+    {
+      "id": "trener11",
+      "ime": "Filip",
+      "prezime": "Jankovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava11.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Personalni trener"
+    },
+    {
+      "id": "trener12",
+      "ime": "Andrej",
+      "prezime": "Todorovic",
+      "profilnaSlika": "assets/images/treneri/trener-glava12.jpg",
+      "godinaRodjenja": 1996,
+      "struka": "Full Body Workout"
+    }
+  ]
+}

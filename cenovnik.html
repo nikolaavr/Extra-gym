@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/logo/logo-dark-transparent.png">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+      $("#footer-placeholder").load("footer.html");
+    });
+
+    setTimeout(function () {
+      $(".cenovnik-nav-link").addClass("active-nav");
+      $('.navbar').addClass('nav-bg');
+    }, 500);
+  </script>
+
+  <title>Extra Gym | Cenovnik</title>
+</head>
+
+<body>
+  <section class="navigacija" id="nav-placeholder"></section>
+
+  <section class="hero-sektor">
+    <div class="hero-image" id="cenovnik-s1">
+      <div class="hero-text">
+        <h1 class="hero-heading">Cenovnik</h1>
+        <p class="hero-paragraf">Punude, akcije, popusti i još mnogo toga za verne članove</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pocetna-cenovnik" id="sektor3">
+    <div class="container">
+      <div class="row col-12">
+        <p class="podnaslov">Cene i ponude</p>
+        <p class="naslov dark">Planovi i cene članstva</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-6 col-xl-3">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena1">Standard paket</h2>
+            <div class="cena">2800 rsd</div>
+            <div class="mesecno">mesečno</div>
+            <ul>
+              <li><b>20</b> - broj treninga mesečno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>00h-24h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+              <li><b>50% popusta</b> <a href="">sportska masaža</a></li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="kontakt.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena2">Full paket</h2>
+            <div class="cena">3500 rsd</div>
+            <div class="mesecno">mesecno</div>
+            <ul>
+              <li><b>Neogranicen</b> broj treninga</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>Grupni programi</b> - neograničeno</li>
+              <li><b>00h-24h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+              <li><b>50% popusta</b> <a href="">sportska masaža</a></li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="kontakt.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena3">Studentski paket</h2>
+            <div class="cena">2000 rsd</div>
+            <div class="mesecno">mesečno</div>
+            <ul>
+              <li><b>16</b> - broj treninga mesečno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>07h-22h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+              <li><b>Vaučer</b> probni trening</li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="kontakt.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-xl-3">
+          <div class="cenovnik-kartica">
+            <h2 class="pocetna-cenovnik-naslov cena4">Dnevni paket</h2>
+            <div class="cena">400 rsd</div>
+            <div class="mesecno">dnevno</div>
+            <ul>
+              <li><b>1</b> trening dnevno</li>
+              <li><b>Teretana</b> - neograničeno</li>
+              <li><b>Kardio</b> - neograničeno</li>
+              <li><b>07h-16h</b> termini</li>
+              <li><b>Ormarići</b> za vaše stvari</li>
+            </ul>
+            <button class="dugmeWrapper"><a class="dugme" href="kontakt.html">Saznaj više</a></button>
+
+          </div>
+        </div>
+      </div>
+      <p class="paragraf dark mt-5 mb-0"> Preuzmi cenovnik kao PDF <a id="preuzmi-cenovnik"
+          href="assets/documents/extra-gym-cenovnik.pdf" target="_blank">ovde <i class="fa-solid fa-file-pdf"></i></a>
+      </p>
+
+  </section>
+
+  <section class="cenovnik-dodatak" id="sektor3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="podnaslov">Više za manje</div>
+          <div class="naslov dark">Popusti za verne članove</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5">
+
+          <div class="slika-before"></div>
+          <div><img id="cenovnik-dicounts" src="assets/images/cenovnik-discounts.jpg" alt="slika-cenovnik-popust"></div>
+          <div class="slika-after"></div>
+        </div>
+        <div class="col-7">
+          <p class="paragraf dark">
+            <span class="paragraf-start">Ukoliko</span> planirate višemesecno trening iskustvo, platite odjednom i
+            ostvarite dodatne popuste i druge razne
+            pogodnosti. <br>Popust važi samo za "FULL PAKET" ponudu.
+          </p>
+          <p class="paragraf"><i class="fa-solid fa-fire"></i>3 meseca - 9450rsd (<span class="bold">10%</span> popusta)
+          </p>
+          <p class="paragraf"><i class="fa-solid fa-fire"></i>6 meseci - 16,800rsd (<span class="bold">20%</span>
+            popusta)</p>
+          <p class="paragraf"><i class="fa-solid fa-fire"></i>12 meseci - 29,400rsd (<span class="bold">30%</span>
+            popusta)</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="footer-placeholder"></section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
